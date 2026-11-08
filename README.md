@@ -1,8 +1,12 @@
 # Muffinbot
 
+<p align="center">
+  <img src="assets/muffinbot-icon.jpg" alt="Muffinbot's original chocolate-chunk muffin illustration" width="320">
+</p>
+
 > An experimental, local-first artificial intelligence exploring language, reasoning, memory, emotion-like state, and learning through experience.
 
-Muffinbot is the name of the AI and the project. Its visual identity is the user's supplied illustrated chocolate-chunk muffin character. The original artwork should be preserved as the project icon when added to `assets/muffinbot-icon.jpg`.
+Muffinbot is the name of the AI and the project. Its visual identity is the user's supplied illustrated chocolate-chunk muffin character, preserved as `assets/muffinbot-icon.jpg`.
 
 ## Project vision
 
@@ -30,6 +34,8 @@ These mechanisms model emotion and adaptive behaviour. They do not, by themselve
 
 ```text
 Muffinbot/
+├── assets/
+│   └── muffinbot-icon.jpg
 ├── brain/
 │   ├── intelligence/    # reasoning and decision support
 │   ├── personality/     # traits and long-term temperament
@@ -68,4 +74,4 @@ The final model and runtime will be selected after benchmarking on the target de
 
 **Stage:** project setup and architecture design.
 
-No intelligence, emotion, or learning modules are claimed as implemented yet. Progress will be recorded as working code and tests are added.
+The artwork is referenced above and is to be committed at `assets/muffinbot-icon.jpg`. No intelligence, emotion, or learning modules are claimed as implemented yet. Progress will be recorded as working code and tests are added.
